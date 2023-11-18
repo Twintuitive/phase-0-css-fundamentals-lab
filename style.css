@@ -1,5 +1,51 @@
+/* Set up the page layout */
 body {
   width: 100%;
   height: 100%;
   margin: 0;
+}
+
+/* Center the main heading */
+header h1 {
+  text-align: center; /* Center-align the header title */
+}
+
+/* Center the navigation container and its contents */
+header nav {
+  text-align: center; /* Center-align inline contents */
+}
+
+/* Style and center the navigation links */
+header nav a {
+  display: inline-block; /* Allows applying margin, padding */
+  margin: 0 10px; /* Horizontal space between links */
+  padding: 10px; /* Space around the text */
+  background-color: grey; /* Grey background for links */
+}
+
+/* Make sure the main image in the featured-property section is in the middle */
+#featured-property img {
+  display: block;
+  margin: auto; /* Center the image */
+}
+
+/* Image caption: smaller text and centered */
+#featured-property figcaption {
+  font-size: smaller; /* Make the font size smaller */
+  text-align: center; /* Center-align the caption */
+}
+
+/* Set the width and center text for paragraphs */
+#featured-property p {
+  width: 800px; /* Set width to match image size */
+  margin: auto; /* Center the paragraph block */
+  text-align: center; /* Center-align the text */
+}
+
+/* Arrange details section side by side */
+#details div {
+  float: left; /* Line up the divs horizontally */
+  width: 25%; /* Each div takes up 25% width */
+  background-color: rgb(255, 0, 0); /* Set the background color to red */
+  text-align: center; /* Center the text inside divs */
 }
